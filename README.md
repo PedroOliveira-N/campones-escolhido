@@ -59,4 +59,6 @@ npm install
 npm start
 ```
 
+---
+
 Site e História feitas por [Pedro Oliveira](https://github.com/PedroOliveira-N/)
