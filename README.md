@@ -14,6 +14,7 @@ Este é um projeto de **wiki** de "**__O__ __Camponês__ __Escolhido__**", uma h
 
 ## 📁 Estrutura do Projeto
 
+```
 campones-escolhido/
 ├── src/
 │ ├── pages/
@@ -23,6 +24,7 @@ campones-escolhido/
 │ ├── App.js
 │ └── App.css
 └── README.md
+```
 
 ---
 
