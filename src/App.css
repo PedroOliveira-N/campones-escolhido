@@ -1,38 +1,121 @@
+* {
+  color: #ffffff;
+  background-color: #0f0f0f;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  top: 0;
+  left: 0;
+  background: #1a1a1a;
+  padding: 15px 30px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  border-bottom: 2px solid #1A2A40;
+}
+
+header h1 {
+  background: #1a1a1a;
+  margin-bottom: 28px;
+  border-bottom: 2px solid #263e5f;
+  padding-bottom: 7px;
+}
+
+.corpo {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 25px;
+}
+
+p {
+  font-size: 120%;
+}
+
+.page-btn-1 {
+  padding: 10px 20px;
+  background-color: #0077cc;
   color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 120%;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-desc-p {
+  max-width: 600px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.corpo-1 {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 15px;
+}
+
+.page-btn-2 {
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 120%;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.page-btn-3 {
+  position: fixed;
+  left: 1%;
+  bottom: 10px;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 120%;
+  text-align: center;
+  width: 98%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 90px;
+}
+
+.corpo-2 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-top: 25px;
+}
+
+.atributos {
+  width: 70%;
+}
+
+.classes {
+  width: 70%;
+}
+
+.racas {
+  left: 0%;
 }
