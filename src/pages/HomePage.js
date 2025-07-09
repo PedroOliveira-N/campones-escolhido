@@ -17,9 +17,7 @@ export default function HomePage () {
             </header>
             <div className='corpo'>
                 <p>
-                    Olá, este é um site baseado em um projeto pessoal de Pedro Oliveira. 
-                    Este projeto é uma história denominada "<strong>O Camponês Escolhido</strong>". 
-                    Nele é contada a história de <strong>Jin Lionel</strong>, um jovem que despertaria um imenso poder!
+                    Olá, esta é uma wiki baseada em um projeto pessoal de Pedro Oliveira denominado "<strong>O Camponês Escolhido</strong>". 
                 </p>
                 <br/>
                 <p>

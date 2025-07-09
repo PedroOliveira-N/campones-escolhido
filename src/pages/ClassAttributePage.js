@@ -91,7 +91,7 @@ const atributos = [
             </div>
         </div>
 
-            <button className='page-btn-3' onClick={VoltarParaMenu}>Voltar Para a Página Inicial</button>
+            <button className='page-btn-3' onClick={VoltarParaMenu}>Voltar Para o Menu</button>
         </div>
     )
 }

@@ -162,7 +162,10 @@ export default function RacesPage () {
     return(
     <div>
       <div className='racas'>
-        <table border="1" cellPadding="4">
+        <header>
+          <h1>🙍‍♂️ Raças 🧝‍♂️</h1>
+        </header>
+        <table border="1" cellPadding="4" style={{marginTop: '20px'}}>
           <thead>
             <tr style={{ backgroundColor: '#eee' }}>
               <th>Raça</th>
@@ -186,8 +189,8 @@ export default function RacesPage () {
             ))}
           </tbody>
         </table>
-      </div>;
-      <button className='page-btn-3' onClick={VoltarParaMenu}>Voltar Para a Página Inicial</button>
+      </div>
+      <button className='page-btn-3' onClick={VoltarParaMenu}>Voltar Para o Menu</button>
     </div>
     )
 }
