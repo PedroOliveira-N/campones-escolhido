@@ -28,7 +28,7 @@ export default function MenuPage () {
             </header>
 
             <div className='corpo'>
-                <button className='page-btn-2' onClick={irParaSobre}>Ir Para o Tópico de Classes e Atributos</button>
+                <button className='page-btn-2' onClick={irParaSobre}>Ir Para o Tópico de Sobre</button>
                 <div className="corpo-1">
                     <p className="btn-desc-p">└── Página onde estão os detalhes sobre a trama e sobre o site.</p>
                 </div>
